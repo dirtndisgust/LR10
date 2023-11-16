@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  background: #c8dcf2; 
+  font-size: 22px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#userName {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#roundCounter {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#board {
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.block > img {
+  padding: 0 3px;
+}
+
+#generate {
+  padding: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  background-color: #4c66af;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#generate:hover {
+  background-color: #648fd8;
+}
+
+@media (max-width: 360px) {
+  img {
+    max-width: 70px;
+    max-height: 70px;
+  }
+  #generate {
+    font-size: 18px;
+  }
+  #userName {
+    font-size: 26px;
+  }
+  #roundCounter {
+    font-size: 20px;
+  }
+}
